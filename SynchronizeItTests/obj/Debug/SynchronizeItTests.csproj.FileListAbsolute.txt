@@ -1,0 +1,10 @@
+C:\GitHub\SynchronizeIt\SynchronizeItTests\bin\Debug\SynchronizeItTests.dll
+C:\GitHub\SynchronizeIt\SynchronizeItTests\bin\Debug\SynchronizeItTests.pdb
+C:\GitHub\SynchronizeIt\SynchronizeItTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\GitHub\SynchronizeIt\SynchronizeItTests\obj\Debug\SynchronizeItTests.csprojResolveAssemblyReference.cache
+C:\GitHub\SynchronizeIt\SynchronizeItTests\obj\Debug\SynchronizeItTests.dll
+C:\GitHub\SynchronizeIt\SynchronizeItTests\obj\Debug\SynchronizeItTests.pdb
+C:\GitHub\SynchronizeIt\SynchronizeItTests\bin\Debug\SynchronizeIt.exe
+C:\GitHub\SynchronizeIt\SynchronizeItTests\bin\Debug\SynchronizeIt.pdb
+C:\GitHub\SynchronizeIt\SynchronizeItTests\bin\Debug\log4net.dll
+C:\GitHub\SynchronizeIt\SynchronizeItTests\bin\Debug\log4net.xml
