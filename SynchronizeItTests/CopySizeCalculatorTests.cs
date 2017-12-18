@@ -1,15 +1,14 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SynchronizeIt;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace SynchronizeItTests
 {
     [TestClass]
     public class CopySizeCalculatorTests
     {
-        private const string _sourceDir = @"..\..\TestData\Source";
-        private const string _destDir = @"..\..\TestData\Destination";
+        private const string _sourceDir = @"..\..\TestData\Source\";
+        private const string _destDir = @"..\..\TestData\Destination\";
 
         [TestMethod]
         public void CalculateTotalFileCopySize_TestData_ExpectedValue()
@@ -28,7 +27,7 @@ namespace SynchronizeItTests
         public void CalculateTotalFileCopySize_BigData_BigSize()
         {
             // Arrange
-            CopySizeCalculator calc = new CopySizeCalculator(@"C:\", _destDir);
+            CopySizeCalculator calc = new CopySizeCalculator(@"C:\Program Files\", _destDir);
 
             // Act
             long size = calc.CalculateTotalFileCopySize();
@@ -45,10 +44,10 @@ namespace SynchronizeItTests
             long size = 0;
 
             // Act
-            Thread _fileSizeEstimatorThread = new Thread(new ThreadStart( () =>
-            {
-                size = calc.CalculateTotalFileCopySize();
-            }));
+            Thread _fileSizeEstimatorThread = new Thread(new ThreadStart(() =>
+           {
+               size = calc.CalculateTotalFileCopySize();
+           }));
             _fileSizeEstimatorThread.Start();
             _fileSizeEstimatorThread.Join();
 

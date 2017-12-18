@@ -64,6 +64,8 @@
     <Compile Include="CopySizeCalculator.cs" />
     <Compile Include="FileControl.cs" />
     <Compile Include="Logger.cs" />
+    <Compile Include="SynchronizationTracking.cs" />
+    <Compile Include="SyncInfoItem.cs" />
     <Compile Include="UI.cs">
       <SubType>Form</SubType>
     </Compile>

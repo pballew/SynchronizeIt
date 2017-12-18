@@ -8,3 +8,13 @@ C:\GitHub\SynchronizeIt\SynchronizeItTests\bin\Debug\SynchronizeIt.exe
 C:\GitHub\SynchronizeIt\SynchronizeItTests\bin\Debug\SynchronizeIt.pdb
 C:\GitHub\SynchronizeIt\SynchronizeItTests\bin\Debug\log4net.dll
 C:\GitHub\SynchronizeIt\SynchronizeItTests\bin\Debug\log4net.xml
+C:\Projects\git\SynchronizeIt\SynchronizeItTests\bin\Debug\SynchronizeItTests.dll
+C:\Projects\git\SynchronizeIt\SynchronizeItTests\bin\Debug\SynchronizeItTests.pdb
+C:\Projects\git\SynchronizeIt\SynchronizeItTests\bin\Debug\log4net.dll
+C:\Projects\git\SynchronizeIt\SynchronizeItTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Projects\git\SynchronizeIt\SynchronizeItTests\bin\Debug\SynchronizeIt.exe
+C:\Projects\git\SynchronizeIt\SynchronizeItTests\bin\Debug\SynchronizeIt.pdb
+C:\Projects\git\SynchronizeIt\SynchronizeItTests\bin\Debug\log4net.xml
+C:\Projects\git\SynchronizeIt\SynchronizeItTests\obj\Debug\SynchronizeItTests.csprojResolveAssemblyReference.cache
+C:\Projects\git\SynchronizeIt\SynchronizeItTests\obj\Debug\SynchronizeItTests.dll
+C:\Projects\git\SynchronizeIt\SynchronizeItTests\obj\Debug\SynchronizeItTests.pdb

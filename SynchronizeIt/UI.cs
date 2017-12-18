@@ -4,7 +4,6 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.IO;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Runtime.Serialization.Formatters.Binary;
 
 namespace SynchronizeIt
@@ -773,46 +772,4 @@ namespace SynchronizeIt
             }
         }
     }
-
-    #region SyncInfoItem class definition
-    // ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    [Serializable]
-    public class SyncInfoItem
-    {
-        public string SourcePath;
-        public string DestPath;
-
-        public SyncInfoItem(string source, string dest)
-        {
-            SourcePath = source;
-            DestPath = dest;
-        }
-
-        public override string ToString()
-        {
-            return SourcePath + " --> " + DestPath;
-        }
-    }
-    // ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    #endregion
-
-    #region SynchronizationTracking struct definition
-    // ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public struct SynchronizationTracking
-    {
-        public string DestFile;
-        public DateTime SourceFileModifiedDateTime;
-        public DateTime DestFileModifiedDateTime;
-        public bool Copied;
-
-        public SynchronizationTracking(string destFile, DateTime sourceDT, DateTime destDT, bool copied)
-        {
-            DestFile = destFile;
-            SourceFileModifiedDateTime = sourceDT;
-            DestFileModifiedDateTime = destDT;
-            Copied = copied;
-        }
-    }
-    // ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    #endregion
 }
